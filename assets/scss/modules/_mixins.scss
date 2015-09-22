@@ -11,7 +11,7 @@
 }
 
 @mixin background-filter {
-  background: linear-gradient(150deg, $cover-secondary 30%, $cover-primary 70%)fixed;
+  background: linear-gradient(150deg, $cover-secondary 30%, $cover-primary 70%) 0 0/cover fixed;
 }
 
 @mixin center-absolute {
